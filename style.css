@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -147,7 +147,8 @@ nav {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    right: 20%;
+    right: 12%;
+    
 }
 
 @keyframes drop {
@@ -196,5 +197,11 @@ nav {
 
     [class*="-circle"] {
         opacity: 0.2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cta-add {
+        margin: 30px 0px 0px 0px;
     }
 }
