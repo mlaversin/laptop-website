@@ -128,7 +128,7 @@ nav {
 
 .medium-circle {
     position: absolute;
-    top: 30%;
+    top: 33%;
     right: 30%;
     z-index: -1;
     height: 60%;
@@ -138,7 +138,7 @@ nav {
 .small-circle {
     position: absolute;
     bottom: 0%;
-    left: 20%;
+    left: 25%;
     z-index: -1;
 }
 
@@ -187,16 +187,14 @@ nav {
     .laptop-select {
         bottom: 5%;
         right: 50%;
-        width: 50%;
+        width: 40%;
         transform: translate(50%, 5%);
     }
     .cover img {
         height: 80%;
     }
 
-    .small-circle,
-    .medium-circle,
-    .big-circle {
+    [class*="-circle"] {
         opacity: 0.2;
     }
 }
